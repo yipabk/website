@@ -1,9 +1,9 @@
-import { FadingHeader } from '../../components/commons/FadingHeader'
-import { SectionWithImage } from '../../components/commons/Section/SectionWithImage'
-import hero from '../../assets/images/program/care-hero.png'
-import care1 from '../../assets/images/program/care-1.png'
-import care2 from '../../assets/images/program/care-2.png'
-import { SectionText } from '../../components/commons/Section/SectionText'
+import { FadingHeader } from "../../components/commons/FadingHeader";
+import { SectionWithImage } from "../../components/commons/Section/SectionWithImage";
+import hero from "../../assets/images/program/care-hero.png";
+import care1 from "../../assets/images/program/care-1.png";
+import care2 from "../../assets/images/program/care-2.png";
+import { SectionText } from "../../components/commons/Section/SectionText";
 
 export const Care = () => {
   return (
@@ -79,6 +79,24 @@ export const Care = () => {
                 </div>
                 <div className="flex items-center justify-center">
                   <img src={care2} alt="" />
+                </div>
+              </div>
+            }
+          />
+
+          <SectionText
+            title="3. Program Orang tua Bisa"
+            content={
+              <div className="flex flex-col gap-4">
+                <div>
+                  Program yang bertujuan untuk memberikan dukungan, edukasi dan
+                  pendampingan kepada orang tua dan wali dengan anak
+                  berkebutuhan khusus dengan arahan oleh praktisi ahli dari
+                  YIPABK dalam menghadapi tantangan dan beban secara emosi
+                  mental.
+                </div>
+                <div>
+                  Pelaksanaan: 10 pertemuan secara hybrid (online+offline)
                 </div>
               </div>
             }

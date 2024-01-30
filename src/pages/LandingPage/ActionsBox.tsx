@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import Button from "../../components/Button";
 
 interface Props {
   icon: ReactNode;
@@ -26,7 +25,9 @@ export const ActionsBox = ({
         <div className="h-[91px] flex items-center">{icon}</div>
         <div className="text-[40px] text-center">{title}</div>
         <div className="whitespace-pre-line text-center ">{subtitle}</div>
-        <Button className="absolute -bottom-6">{buttonText}</Button>
+        <button className="absolute -bottom-6 font-montserrat text-base flex justify-center flex-grow-0 cursor-pointer bg-orange text-white font-medium px-3 lg:px-6 py-2 hover:bg-white hover:text-orange border border-transparent hover:border-orange duration-200">
+          {buttonText}
+        </button>
       </div>
     </a>
   );

@@ -1,10 +1,10 @@
-import { CallIcon } from './icons/CallIcon'
-import { MailIcon } from './icons/MailIcon'
-import instagram from '../assets/icon/instagram.png'
-import facebook from '../assets/icon/facebook.png'
-import youtube from '../assets/icon/youtube.png'
-import { LocationIcon } from './icons/LocationIcon'
-import dewaweb from '../assets/images/dewaweb.png'
+import { CallIcon } from "./icons/CallIcon";
+import { MailIcon } from "./icons/MailIcon";
+import instagram from "../assets/icon/instagram.png";
+import facebook from "../assets/icon/facebook.png";
+import youtube from "../assets/icon/youtube.png";
+import { LocationIcon } from "./icons/LocationIcon";
+import dewaweb from "../assets/images/dewaweb.png";
 
 export const Footer = () => {
   return (
@@ -13,7 +13,7 @@ export const Footer = () => {
         Footer
       </h2>
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div className="mb-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 xl:mb-0 text-xs md:text-base">
+        <div className="mb-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-12 xl:mb-0 text-xs md:text-base">
           <div className="flex col-span-2 gap-4">
             <div>
               <LocationIcon />
@@ -27,18 +27,21 @@ export const Footer = () => {
               <div>DKI Jakarta 10130</div>
             </div>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1 lg:col-span-2">
             <div className="flex items-center gap-4">
               <div>
                 <MailIcon />
               </div>
-              <div>yipabk@gmail.com</div>
+              <div>yipabkco@yipabk.com</div>
             </div>
             <div className="flex items-center gap-4">
               <div>
                 <CallIcon />
               </div>
-              <div>+62 813-7070-3429</div>
+              <div>
+                <p>+62 813-7070-3429</p>
+                <p>+62 858-1981-9103</p>
+              </div>
             </div>
           </div>
           <div className="flex flex-col gap-1">

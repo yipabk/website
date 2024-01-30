@@ -8,7 +8,7 @@ interface Props {
 export const SectionText = ({ title, content }: Props) => {
   return (
     <div
-      className={`flex flex-col px-8 xl:px-24 2xl:px-40 py-24 md:py-48 items-center justify-center gap-12 lg:gap-16'`}
+      className={`flex flex-col px-8 xl:px-24 2xl:px-40 py-24 md:py-36 items-center justify-center gap-12 lg:gap-16'`}
     >
       <div className="flex flex-col items-center lg:items-start text-black font-montserrat">
         <div

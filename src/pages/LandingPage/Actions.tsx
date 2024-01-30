@@ -19,7 +19,7 @@ export const Actions = () => {
       subtitle: `untuk buat dampak nyata
        bersama muda-mudi Indonesia`,
       buttonText: "Daftar Sekarang",
-      buttonLink: "mailto:yipabk@gmail.com",
+      buttonLink: "mailto:yipabkco@yipabk.com",
     },
   ];
 

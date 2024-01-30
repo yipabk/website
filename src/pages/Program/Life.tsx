@@ -67,7 +67,7 @@ export const Life = () => {
           <SectionWithImage
             dir="rtl"
             imgs={[life4, life3]}
-            title={"2. Program Kita Bisa"}
+            title={"2. Program Layanan Konsultasi dan Intervensi Anak"}
             content={
               <>
                 <div className="mb-4">
