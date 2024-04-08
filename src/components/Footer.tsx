@@ -40,7 +40,6 @@ export const Footer = () => {
               </div>
               <div>
                 <p>+62 813-7070-3429</p>
-                <p>+62 858-1981-9103</p>
               </div>
             </div>
           </div>
